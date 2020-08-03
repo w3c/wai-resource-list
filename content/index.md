@@ -9,6 +9,17 @@ layout: default
 feedbackmail: wai@w3.org
 ---
 
+
+{::nomarkdown}
+{% include box.html type="start" title="Summary" class="" %}
+{:/}
+
+The page describes most  technical and educational resources from the World Wide Web Consortium (w3C) Web Accessibility Initiative (WAI).<br>A complete list is in the [WAI site map](https://www.w3.org/WAI/sitemap/).
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 {::options toc_levels="2" /}
 
 {::nomarkdown}
@@ -20,8 +31,6 @@ feedbackmail: wai@w3.org
 {::nomarkdown}
 {% include toc.html type="end" %}
 {:/}
-
-The page describes most  technical and educational resources from the World Wide Web Consortium (w3C) Web Accessibility Initiative (WAI).<br>A complete list is in the [WAI site map](https://www.w3.org/WAI/sitemap/).
 
 ## [WAI Home](/)
 
@@ -325,4 +334,4 @@ Additional resources related to evaluation are listed in the [[Evaluating Web Ac
 
 - [How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and **Opportunities to Contribute**](/standards-guidelines/w3c-process/)
 
-![illustration showing the guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide](/content-images/wai-std-gl-overview/specs.png)
+![illustration showing the guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide](https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png)
