@@ -17,7 +17,7 @@ footer: > # Text in footer in HTML
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The page describes most  technical and educational resources from the World Wide Web Consortium (w3C) Web Accessibility Initiative (WAI).<br>A complete list is in the [WAI site map](https://www.w3.org/WAI/sitemap/).
+The page describes most  technical and educational resources from the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI).<br>A complete list is in the [WAI site map](https://www.w3.org/WAI/sitemap/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
