@@ -7,6 +7,9 @@ github:
   repository: w3c/wai-resource-list
 layout: default
 feedbackmail: wai@w3.org
+footer: > # Text in footer in HTML
+  <p><strong>Date:</strong> Updated 1 August 2020.</p>
+  
 ---
 
 
