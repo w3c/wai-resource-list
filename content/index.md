@@ -2,6 +2,7 @@
 title: WAI Resources
 permalink: /resources/
 parent: "/"
+lang: en
 github:
   repository: w3c/wai-resource-list
 layout: default
