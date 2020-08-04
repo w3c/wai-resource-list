@@ -23,18 +23,6 @@ The page describes most  technical and educational resources from the World Wide
 {% include box.html type="end" %}
 {:/}
 
-{::options toc_levels="2" /}
-
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
-{:toc}
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
 {% include excol.html type="all" %}
 
 {% include_cached excol.html type="start" id="homepage" %}
@@ -89,7 +77,14 @@ The following resources provide information for getting started with accessibili
 [[Accessibility, Usability, and Inclusion]](/fundamentals/accessibility-usability-inclusion/)
 :   Explains the distinctions and overlaps between accessibility, usability, and inclusive design; encourages increased coordination across research and practice in these disciplines; and points out the importance of maintaining the focus of accessibility on people with disabilities.
 
+{% include_cached excol.html type="end" %}
+
+{% include_cached excol.html type="start" id="plan-policies" %}
+
 ## Planning & Policies
+
+{% include_cached excol.html type="middle" %}
+
 The following resources provide guidance for individual project management and for managing accessibility throughout an organization.
 
 [[Web Accessibility First Aid: Approaches for Interim Repairs]](/planning/interim-repairs/)
@@ -227,6 +222,8 @@ Getting the right people and skills involved makes your accessibility evaluation
 ### Standards
 
 Specifications for writing accessibility test rules (ACT Rules Format) and expressing test results (EARL) are introduced in [Evaluation Standards Overview](/standards-guidelines/evaluation/).
+
+{% include_cached excol.html type="end" %}
 
 {% include_cached excol.html type="start" id="teach-advocate" %}
 
