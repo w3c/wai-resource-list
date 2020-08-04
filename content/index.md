@@ -369,3 +369,5 @@ Additional resources related to evaluation are listed in the [[Evaluating Web Ac
 ![illustration showing the guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide](https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png)
 
 {% include_cached excol.html type="end" %}
+
+{% include excol.html type="all" %}
