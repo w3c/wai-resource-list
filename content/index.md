@@ -1,6 +1,7 @@
 ---
 title: WAI Resources
 permalink: /resources/
+ref: /resources/
 parent: "/"
 lang: en
 github:
