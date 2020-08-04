@@ -35,7 +35,13 @@ The page describes most  technical and educational resources from the World Wide
 {% include toc.html type="end" %}
 {:/}
 
+{% include excol.html type="all" %}
+
+{% include_cached excol.html type="start" id="homepage" %}
+
 ## [WAI Home](/)
+
+{% include_cached excol.html type="middle" %}
 
 - [WAI News](/news/)
 - [Get resources for…](https://www.w3.org/WAI/roles/)
@@ -49,8 +55,13 @@ The page describes most  technical and educational resources from the World Wide
    - [Web Users, People with Disabilities, Advocates](/roles/users/)
 - [All Translations](https://www.w3.org/WAI/translations)
 
+{% include_cached excol.html type="end" %}
+
+{% include_cached excol.html type="start" id="fundamentals" %}
 
 ## Accessibility Fundamentals
+
+{% include_cached excol.html type="middle" %}
 
 The following resources provide information for getting started with accessibility:
 
@@ -105,7 +116,13 @@ The resources below help you find existing laws and policies, and develop a poli
 : Helps you create an accessibility statement for your own website, mobile application, or other digital content. 
 {:.paragraph-like}
 
+{% include_cached excol.html type="end" %}
+
+{% include_cached excol.html type="start" id="design-develop" %}
+
 ## Design & Develop
+
+{% include_cached excol.html type="middle" %}
 
 ### Tips for Getting Started with Web Accessibility {#tips}
 
@@ -150,7 +167,13 @@ The tutorials provide guidance on how to create components that meet Web Content
 : Lists specific WCAG success criteria and techniques that particularly improve accessibility and usability for older people.
 {:.paragraph-like}
 
+{% include_cached excol.html type="end" %}
+
+{% include_cached excol.html type="start" id="evaluate" %}
+
 ## Test & Evaluate
+
+{% include_cached excol.html type="middle" %}
 
 When developing or redesigning a website or web application, evaluate accessibility early and throughout the development process to identify accessibility problems early, when it is easier to address them.
 
@@ -205,8 +228,11 @@ Getting the right people and skills involved makes your accessibility evaluation
 
 Specifications for writing accessibility test rules (ACT Rules Format) and expressing test results (EARL) are introduced in [Evaluation Standards Overview](/standards-guidelines/evaluation/).
 
+{% include_cached excol.html type="start" id="teach-advocate" %}
 
 ## Teach & Advocate
+
+{% include_cached excol.html type="middle" %}
 
 ### Training Resources {#train}
 
@@ -232,7 +258,13 @@ Specifications for writing accessibility test rules (ACT Rules Format) and expre
 : Examines the rationale for organizations to address accessibility. Includes tangible and intangible benefits, and the risks of not addressing accessibility adequately. Explores how accessibility can drive innovation, enhance your brand, extend market reach, and minimize legal risk.
 {:.paragraph-like}
 
+{% include_cached excol.html type="end" %}
+
+{% include_cached excol.html type="start" id="standards" %}
+
 ## Standards/Guidelines
+
+{% include_cached excol.html type="middle" %}
 
 The World Wide Web Consortium (W3C) develops international Web standards: <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, and many more. W3C's Web standards are called <dfn>W3C Recommendations</dfn>.
 
@@ -338,3 +370,5 @@ Additional resources related to evaluation are listed in the [[Evaluating Web Ac
 - [How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and **Opportunities to Contribute**](/standards-guidelines/w3c-process/)
 
 ![illustration showing the guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide](https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png)
+
+{% include_cached excol.html type="end" %}
