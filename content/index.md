@@ -10,6 +10,7 @@ ref: /resources/
 parent: "/"
 lang: en
 layout: default
+image: /content-images/wai-resource-list/resources-social.png 
 feedbackmail: wai@w3.org
 
 footer: > # Text in footer in HTML
