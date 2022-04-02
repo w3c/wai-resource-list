@@ -22,11 +22,26 @@ footer: > # Text in footer in HTML
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The page describes most technical and educational resources from the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI). These resources are free on the [WAI website](https://www.w3.org/WAI/). A complete list is in the [WAI site map](https://www.w3.org/WAI/sitemap/).
+The page describes most technical and educational resources from the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI). These resources are free on the [WAI website](https://www.w3.org/WAI/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
+
+{::options toc_levels="2,3,4" /}
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
+_A complete list of pages is in the [WAI site map](https://www.w3.org/WAI/sitemap/)._
 
 {% include excol.html type="all" %}
 
