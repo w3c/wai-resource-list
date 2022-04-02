@@ -14,7 +14,7 @@ image: /content-images/wai-resource-list/resources-social.png
 feedbackmail: wai@w3.org
 
 footer: > # Text in footer in HTML
-  <p><strong>Date:</strong> Updated 10 June 2021.</p>
+  <p><strong>Date:</strong> Updated 2 Aptil 2022.</p>
   
 ---
 
@@ -166,6 +166,9 @@ The tutorials provide guidance on how to create components that meet Web Content
 [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/)
 : Provides approaches, advice, and examples to help web application developers make widgets, navigation, and behaviors accessible using WAI-ARIA (Accessible Rich Internet Applications) roles, states, and properties.
 
+[Cognitive Accessibility Guidance](/WCAG2/supplemental/#cognitiveaccessibilityguidance)
+: Provides objecties and design patterns to improve accessibility for people with cognitive and learning disabilitie. Introduced in [About Supplemental Guidance](/WCAG2/supplemental/about/).
+
 [Developing Websites for Older People: How WCAG Applies](https://www.w3.org/WAI/older-users/developing/)
 : Lists specific WCAG success criteria and techniques that particularly improve accessibility and usability for older people.
 {:.paragraph-like}
@@ -227,9 +230,11 @@ Getting the right people and skills involved makes your accessibility evaluation
 [Using Combined Expertise to Evaluate Web Accessibility](/test-evaluate/combined-expertise/)
 :   Discusses skill sets and considerations for collaborative review.
 
-### Standards
+## For Developers of Evaluation Tools and Methodologies
 
-Specifications for writing accessibility test rules (ACT Rules Format) and expressing test results (EARL) are introduced in [Evaluation Standards Overview](/standards-guidelines/evaluation/).
+**[WCAG 2 Test Rules](/standards-guidelines/act/rules/about/)** describe how to test conformance to Web Content Accessibility Guidelines (WCAG) success criteria. They are primarily for developers of evaluation tools and methodologies.
+
+Specifications for expressing test results (EARL) and for writing accessibility test rules (Accessibility Conformance Testing (ACT) Rules Format) are introduced in [Evaluation Standards Overview](/standards-guidelines/evaluation/).
 
 {% include_cached excol.html type="end" %}
 
@@ -358,9 +363,10 @@ Additional resources related to evaluation are listed in the [[Evaluating Web Ac
 
 ### Other Areas of W3C WAI work
 
-- [[Mobile Accessibility at W3C]](/standards-guidelines/mobile/)
-
 - [[Cognitive Accessibility at W3C]](/cognitive/)
+    -   [Cognitive Accessibility Guidance](/WCAG2/supplemental/#cognitiveaccessibilityguidance), [About Supplemental Guidance](/WCAG2/supplemental/about/)
+
+- [[Mobile Accessibility at W3C]](/standards-guidelines/mobile/)
 
 ### Additional Information {#moreinfo}
 
