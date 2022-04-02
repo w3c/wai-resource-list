@@ -22,7 +22,7 @@ footer: > # Text in footer in HTML
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The page describes most technical and educational resources from the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI). These resources are free on the [WAI website](https://www.w3.org/WAI/).
+The page describes most technical and educational resources from the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI). These resources are free on this [WAI website](https://www.w3.org/WAI/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -108,6 +108,8 @@ The following resources provide information for getting started with accessibili
 ## Planning & Policies
 
 {% include_cached excol.html type="middle" %}
+
+### Planning and Managing Accessibility {#planning}
 
 The following resources provide guidance for individual project management and for managing accessibility throughout an organization.
 
@@ -386,14 +388,14 @@ Additional resources related to evaluation are listed in the [[Evaluating Web Ac
 
 [[Pronunciation Overview]](/pronunciation/) &mdash; Pronunciation is about screen readers and other text-to-speech (TTS) synthesis pronouncing content properly.
 
-### Other Areas of W3C WAI work
+### Cognitive Accessibility and Mobile Accessibility at W3C
 
 - [[Cognitive Accessibility at W3C]](/cognitive/)
     -   [Cognitive Accessibility Guidance](/WCAG2/supplemental/#cognitiveaccessibilityguidance), [About Supplemental Guidance](/WCAG2/supplemental/about/)
 
 - [[Mobile Accessibility at W3C]](/standards-guidelines/mobile/)
 
-### Additional Information {#moreinfo}
+### Additional Standards Information {#moreinfo}
 
 - [List of all W3C accessibility-related Standards ("W3C Recommendations") and Working Group Notes](https://www.w3.org/TR/?tag=accessibility)
 
