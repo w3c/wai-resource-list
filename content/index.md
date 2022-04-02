@@ -14,7 +14,7 @@ image: /content-images/wai-resource-list/resources-social.png
 feedbackmail: wai@w3.org
 
 footer: > # Text in footer in HTML
-  <p><strong>Date:</strong> Updated 2 Aptil 2022.</p>
+  <p><strong>Date:</strong> Updated 2 April 2022.</p>
   
 ---
 
@@ -168,7 +168,7 @@ The tutorials provide guidance on how to create components that meet Web Content
 : Provides approaches, advice, and examples to help web application developers make widgets, navigation, and behaviors accessible using WAI-ARIA (Accessible Rich Internet Applications) roles, states, and properties.
 
 [Cognitive Accessibility Guidance](/WCAG2/supplemental/#cognitiveaccessibilityguidance)
-: Provides objecties and design patterns to improve accessibility for people with cognitive and learning disabilitie. Introduced in [About Supplemental Guidance](/WCAG2/supplemental/about/).
+: Provides objectives and design patterns to improve accessibility for people with cognitive and learning disabilities. Introduced in [About Supplemental Guidance](/WCAG2/supplemental/about/).
 
 [Developing Websites for Older People: How WCAG Applies](https://www.w3.org/WAI/older-users/developing/)
 : Lists specific WCAG success criteria and techniques that particularly improve accessibility and usability for older people.
@@ -181,6 +181,8 @@ The tutorials provide guidance on how to create components that meet Web Content
 ## Test & Evaluate
 
 {% include_cached excol.html type="middle" %}
+
+_For videos introducing the evalution resources below, go to [[Evaluating Web Accessibility Overview]](/test-evaluate/)._
 
 When developing or redesigning a website or web application, evaluate accessibility early and throughout the development process to identify accessibility problems early, when it is easier to address them.
 
