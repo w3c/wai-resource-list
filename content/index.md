@@ -36,6 +36,7 @@ The page describes most technical and educational resources from the World Wide 
 
 {% include_cached excol.html type="middle" %}
 
+- [What We're Working On - Accessibility Activities and Publications](https://www.w3.org/WAI/update/)
 - [WAI News](/news/)
 - [Get resources for…](https://www.w3.org/WAI/roles/)
    - [Content Writers](/roles/writers/)
@@ -230,7 +231,7 @@ Getting the right people and skills involved makes your accessibility evaluation
 [Using Combined Expertise to Evaluate Web Accessibility](/test-evaluate/combined-expertise/)
 :   Discusses skill sets and considerations for collaborative review.
 
-## For Developers of Evaluation Tools and Methodologies
+### For Developers of Evaluation Tools and Methodologies
 
 **[WCAG 2 Test Rules](/standards-guidelines/act/rules/about/)** describe how to test conformance to Web Content Accessibility Guidelines (WCAG) success criteria. They are primarily for developers of evaluation tools and methodologies.
 
@@ -286,21 +287,28 @@ The W3C standards and Working Group Notes introduced below are particularly rele
 
 [[Essential Components of Web Accessibility]](/fundamentals/components/) shows how web accessibility depends on several components of web development and interaction working together, and how the WAI guidelines (WCAG, ATAG, UAAG) apply.
 
-#### Web Content Accessibility Guidelines (WCAG) {#wcag}
+#### Web Content Accessibility Guidelines (WCAG) 2 {#wcag}
 
 Web "content" generally refers to the information in a web page or web application, including:
 
 * natural information such as text, images, and sounds
 * code or markup that defines structure, presentation, etc.
 
-WCAG applies to dynamic content, multimedia, "mobile", etc. WCAG can also be applied to non-web information and communications technologies (ICT), as described in [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
+WCAG 2 applies to dynamic content, multimedia, "mobile", etc. WCAG can also be applied to non-web information and communications technologies (ICT), as described in [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
 
-WCAG info:
+WCAG 2 info:
 - [WCAG Overview](/standards-guidelines/wcag/)
 - [[WCAG 2.1 at a Glance]](/standards-guidelines/wcag/glance/)
 - [How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
 - [WCAG 2.0 Standard](https://www.w3.org/TR/WCAG20/)
 - [WCAG 2.1 Standard](https://www.w3.org/TR/WCAG21/)
+
+#### W3C Accessibility Guidelines (WCAG) 3 Working Draft {#wcag3}
+
+WCAG 3 is an incomplete, early draft that is intended to become a W3C Standard. WCAG 3 applies to web content, apps, tools, publishing, and emerging technologies on the web.
+
+WCAG 3 info:
+- [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/)
 
 #### Authoring Tool Accessibility Guidelines (ATAG) {#atag}
 
