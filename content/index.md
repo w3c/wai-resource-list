@@ -51,7 +51,7 @@ _A complete list of pages is in the [WAI site map](https://www.w3.org/WAI/sitema
 
 {% include_cached excol.html type="middle" %}
 
-- [What We're Working On - Accessibility Activities and Publications](https://www.w3.org/WAI/update/)
+- **[What We're Working On - Accessibility Activities and Publications](https://www.w3.org/WAI/update/)** updated monthly
 - [WAI News](/news/)
 - [Get resources for…](https://www.w3.org/WAI/roles/)
    - [Content Writers](/roles/writers/)
@@ -72,34 +72,28 @@ _A complete list of pages is in the [WAI site map](https://www.w3.org/WAI/sitema
 
 {% include_cached excol.html type="middle" %}
 
-The following resources provide information for getting started with accessibility:
+The following resources provide information for **getting started with accessibility**:
 
 [[Introduction to Web Accessibility]](/fundamentals/accessibility-intro/)
-:   Introduces web accessibility and links to additional resources.
-    -   [[Video Introduction to Web Accessibility and W3C Standards]](/videos/standards-and-benefits/) 4-minute video.
-
-[[Digital Accessibility Foundations &mdash; Free Online Course]](/fundamentals/foundations-course/)
-:   Introduces a self-paced course from W3C WAI for technical and non-technical learners.
+:   Introduces web accessibility and links to additional resources. Includes accessibility in context; why accessibility is important for individuals, businesses, society; making digital technology accessible; evaluating accessibility; and basic examples.
+    -   [Video Introduction to Web Accessibility and W3C Standards](/videos/standards-and-benefits/) 4-minutes {% include image.html src="video.svg" alt="" class="icon" %}
+    
+[[Accessibility: It's About People]](/people/)
+:   Explains the people aspect of accessibility and the role of accessibility in diversity, equality, and inclusion (DEI). Links to:
+    -   [Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone](/perspective-videos/) - videos that demonstrate that web accessibility is essential for people with disabilities and useful for all. Ten 1-minute videos, and a 7-minute compliation {% include image.html src="video.svg" alt="" class="icon" %}
+    -   [[How People with Disabilities Use the Web]](/people-use-web/)<!-- , [Videos of How People with Disabilities Use the Web](/people-use-web/) Eighteen 2+minute videos, and 3 compliations {% include image.html src="video.svg" alt="" class="icon" %} -->
+    -   [Older Users and Web Accessibility](/older-users/) resources
+    -   [[Accessibility, Usability, and Inclusion]](/fundamentals/accessibility-usability-inclusion/)
 
 [[Essential Components of Web Accessibility]](/fundamentals/components/)
-:   Shows how web accessibility depends on several components of web development and interaction working together and shows the relationship between the WAI guidelines: Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)), Authoring Tool Accessibility Guidelines ([ATAG](/standards-guidelines/atag/)), and User Agent Accessibility Guidelines ([UAAG](/standards-guidelines/uaag/)).
+:   Shows how web accessibility depends on several components of web development and interaction working together and shows the relationship between the WAI guidelines and other standards.
 
 [[Accessibility Principles]](/fundamentals/accessibility-principles/)
-:   Helps developers, designers, and others to understand the principles  for creating accessible websites, web applications, browsers, and other web tools. Provides references to the international standards from W3C Web Accessibility Initiative (WAI) and to [stories of web users](/people-use-web/user-stories/).
+:   A concise introduction to accessibility requirements for websites, apps, browsers, and other tools. It is organized similar to the WAI accessibility standards and provides a useful bridge to the standards. Read this page before reading the standards/guidelines.
 
-[[Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone]](/perspective-videos/)
-:   **Videos** that demonstrate that web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations. Each video is about 1 minute, and the [compilation](https://www.youtube.com/watch?v=3f31oufqFSM) is 7:37. Pages include supporting information.
-
-[[How People with Disabilities Use the Web]](/people-use-web/)
-:   Introduces how people with disabilities use the web. Describes tools and approaches that people with different kinds of disabilities use to browse the web and the barriers they encounter due to poor design.
-
-[[Older Users and Web Accessibility: Meeting the Needs of Ageing Web Users]](/older-users/)
-:   Explains that designing products that are easier for older people to use is similar to designing for people with disabilities. Guidance on how to make your websites, web applications, and web tools work better for older users is covered in existing international accessibility standards from the W3C, including Web Content Accessibility Guidelines (WCAG).
-    -   [Developing Websites for Older People: How Web Content Accessibility Guidelines (WCAG) 2.0 Applies](https://www.w3.org/WAI/older-users/developing/)
-    -   [Web Accessibility for Older Users: A Literature Review](https://www.w3.org/WAI/older-users/literature/)
-
-[[Accessibility, Usability, and Inclusion]](/fundamentals/accessibility-usability-inclusion/)
-:   Explains the distinctions and overlaps between accessibility, usability, and inclusive design; encourages increased coordination across research and practice in these disciplines; and points out the importance of maintaining the focus of accessibility on people with disabilities.
+Digital Accessibility Courses:
+:   -   [[Digital Accessibility Foundations &mdash; Free Online Course]](/fundamentals/foundations-course/) - Introduces a self-paced course from W3C WAI for developers, designers, ux, writers, managers, advocates. **Designed for technical and non-technical learners**, including students, instructors, professionals, and people with disabilities. Course is free with optional certificate.
+    -   [[Course List of Digital Accessibility Education, Training, and Certification]](/courses/list/) - Lists courses from different providers.    
 
 {% include_cached excol.html type="end" %}
 
@@ -205,14 +199,31 @@ When developing or redesigning a website or web application, evaluate accessibil
 
 There are evaluation tools that help with evaluation. However, no tool alone can determine if a site meets accessibility standards. Knowledgeable human evaluation is required to determine if a site is accessible.
 
-### Initial Checks {#initial}
+## Initial Checks {#initial}
+
+{% include video-card.html
+    video-url="//media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4"
+    captions="/content-images/wai-eval-overview/easy-checks-accessibility-cc.vtt|en|default"
+    poster="video-thumb-easy-checks.png"
+    accessible-version="https://www.w3.org/WAI/test-evaluate/preliminary/#video-intro"
+    accessible-version-label="Video: Easy Checks Overview"
+    poster="/content-images/wai-eval-overview/video-thumb-easy-checks.png"
+%}
 
 Even if you don’t know anything about accessibility and you don’t have a robust accessibility tool, you can check some aspects of accessibility.
 
 [Easy Checks — A First Review of Web Accessibility](/test-evaluate/preliminary/)
 :   Provides step-by-step guidance and brief explanations for checking some aspects of accessibility.
 
-### Tools
+## Tools
+
+{% include video-card.html
+    video-url="//media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4"
+    captions="/content-images/wai-eval-overview/tools-for-evaluating-cc.vtt|en|default"
+    accessible-version="https://www.w3.org/WAI/test-evaluate/tools/#video-intro"
+    accessible-version-label="Video: Evaluation Tools Overview"
+    poster="/content-images/wai-eval-overview/video-thumb-tools.png"
+%}
 
 Web accessibility evaluation tools are software programs or online services that help determine if web content meets accessibility standards.
 
@@ -222,9 +233,17 @@ Web accessibility evaluation tools are software programs or online services that
 [[Selecting Web Accessibility Evaluation Tools]](/test-evaluate/tools/selecting/)
 :   Provides guidance on choosing tools. It describes the features and functionality of different types of evaluation tools, and discusses things to consider for your situation.
 
-### Conformance Evaluation and Reports {#conformance}
+## Conformance Evaluation and Reports {#conformance}
 
-Conformance evaluation determines how well web pages or applications meet accessibility standards. W3C’s Website Accessibility Conformance Evaluation Methodology (WCAG-EM) is an approach for determining conformance to Web Content Accessibility Guidelines (WCAG). 
+{% include video-card.html
+    video-url="//media.w3.org/wai/evaluation-intros/conformance-evaluation.mp4"
+    captions="/content-images/wai-eval-overview/conformance-evaluation-cc.vtt|en|default"
+    accessible-version="https://www.w3.org/WAI/test-evaluate/conformance/#video-intro"
+    accessible-version-label="Video: Conformance Evaluation Overview"
+    poster="/content-images/wai-eval-overview/video-thumb-conformance.png"
+%}
+
+Conformance evaluation determines how well web pages or applications meet accessibility standards. W3C’s Website Accessibility Conformance Evaluation Methodology (WCAG-EM) is an approach for determining conformance to Web Content Accessibility Guidelines (WCAG).
 
 [[WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology]](/test-evaluate/conformance/wcag-em/)
 :   A short page with basic information to get you started. We suggest you read it before going to the [full WCAG-EM document](https://www.w3.org/TR/WCAG-EM/).
@@ -240,21 +259,30 @@ Conformance evaluation determines how well web pages or applications meet access
 
 Communicate the results of evaluation clearly, including the scope of the evaluation.
 
-### People
+## For Developers of Test Tools and Methodologies
+
+[WCAG 2 Test Rules](/standards-guidelines/act/rules/about/)
+:   Describe how to test conformance to Web Content Accessibility Guidelines (WCAG) success criteria. They are primarily for developers of test tools and methodologies.
+
+Specifications for expressing test results (EARL) and for writing accessibility test rules (Accessibility Conformance Testing (ACT) Rules Format) are introduced in [Evaluation Standards Overview](/standards-guidelines/evaluation/).
+
+## People
+
+{% include video-card.html
+    video-url="//media.w3.org/wai/evaluation-intros/involving-users.mp4"
+    captions="/content-images/wai-eval-overview/involving-users-cc.vtt|en|default"
+    accessible-version="https://www.w3.org/WAI/test-evaluate/involving-users/#video-intro"
+    accessible-version-label="Video: Involving Users in Web Accessibility Overview"
+    poster="/content-images/wai-eval-overview/video-thumb-involving-users.png"
+%}
 
 Getting the right people and skills involved makes your accessibility evaluations more effective.
-
-[[Involving Users in Evaluating Web Accessibility]](/test-evaluate/involving-users/)
-:   Provides guidance on including people with disabilities ("users") in evaluation throughout project development.
 
 [Using Combined Expertise to Evaluate Web Accessibility](/test-evaluate/combined-expertise/)
 :   Discusses skill sets and considerations for collaborative review.
 
-### For Developers of Evaluation Tools and Methodologies
-
-**[WCAG 2 Test Rules](/standards-guidelines/act/rules/about/)** describe how to test conformance to Web Content Accessibility Guidelines (WCAG) success criteria. They are primarily for developers of evaluation tools and methodologies.
-
-Specifications for expressing test results (EARL) and for writing accessibility test rules (Accessibility Conformance Testing (ACT) Rules Format) are introduced in [Evaluation Standards Overview](/standards-guidelines/evaluation/).
+[[Involving Users in Evaluating Web Accessibility]](/test-evaluate/involving-users/)
+:   Provides guidance on including people with disabilities ("users") in evaluation throughout project development.
 
 {% include_cached excol.html type="end" %}
 
