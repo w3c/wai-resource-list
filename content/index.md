@@ -14,7 +14,7 @@ image: /content-images/wai-resource-list/resources-social.png
 feedbackmail: wai@w3.org
 
 footer: > # Text in footer in HTML
-  <p><strong>Date:</strong> Updated 2 April 2022.</p>
+  <p><strong>Date:</strong> Updated 1 June 2023.</p>
   
 ---
 
@@ -199,7 +199,7 @@ When developing or redesigning a website or web application, evaluate accessibil
 
 There are evaluation tools that help with evaluation. However, no tool alone can determine if a site meets accessibility standards. Knowledgeable human evaluation is required to determine if a site is accessible.
 
-## Initial Checks {#initial}
+### Initial Checks {#initial}
 
 {% include video-card.html
     video-url="//media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4"
@@ -215,7 +215,7 @@ Even if you don’t know anything about accessibility and you don’t have a rob
 [Easy Checks — A First Review of Web Accessibility](/test-evaluate/preliminary/)
 :   Provides step-by-step guidance and brief explanations for checking some aspects of accessibility.
 
-## Tools
+### Tools
 
 {% include video-card.html
     video-url="//media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4"
@@ -233,7 +233,7 @@ Web accessibility evaluation tools are software programs or online services that
 [[Selecting Web Accessibility Evaluation Tools]](/test-evaluate/tools/selecting/)
 :   Provides guidance on choosing tools. It describes the features and functionality of different types of evaluation tools, and discusses things to consider for your situation.
 
-## Conformance Evaluation and Reports {#conformance}
+### Conformance Evaluation and Reports {#conformance}
 
 {% include video-card.html
     video-url="//media.w3.org/wai/evaluation-intros/conformance-evaluation.mp4"
@@ -259,14 +259,14 @@ Conformance evaluation determines how well web pages or applications meet access
 
 Communicate the results of evaluation clearly, including the scope of the evaluation.
 
-## For Developers of Test Tools and Methodologies
+### For Developers of Test Tools and Methodologies
 
 [WCAG 2 Test Rules](/standards-guidelines/act/rules/about/)
 :   Describe how to test conformance to Web Content Accessibility Guidelines (WCAG) success criteria. They are primarily for developers of test tools and methodologies.
 
 Specifications for expressing test results (EARL) and for writing accessibility test rules (Accessibility Conformance Testing (ACT) Rules Format) are introduced in [Evaluation Standards Overview](/standards-guidelines/evaluation/).
 
-## People
+### People
 
 {% include video-card.html
     video-url="//media.w3.org/wai/evaluation-intros/involving-users.mp4"
