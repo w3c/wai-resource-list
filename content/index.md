@@ -1,21 +1,21 @@
 ---
 title: WAI Resources
+lang: en
+last_updated: 2024-04-29
 
 github:
-  repository: w3c/wai-resource-list
-  path: content/index.md
+  repository: w3c/wai-website
+  path: pages/wai-resources.md
+
 permalink: /resources/
 ref: /resources/
 
-parent: "/"
-lang: en
 layout: default
 image: /content-images/wai-resource-list/resources-social.png 
 feedbackmail: wai@w3.org
 
-footer: > # Text in footer in HTML
-  <p><strong>Date:</strong> Updated 1 June 2023.</p>
-  
+footer: >
+  <p><strong>Date:</strong> Updated 29 April 2024.</p>
 ---
 
 {::nomarkdown}
@@ -41,7 +41,7 @@ The page describes most technical and educational resources from the World Wide 
 {% include toc.html type="end" %}
 {:/}
 
-_A complete list of pages is in the [WAI site map](https://www.w3.org/WAI/sitemap/)._
+_A complete list of pages is in the [WAI site map](/sitemap/)._
 
 {% include excol.html type="all" %}
 
@@ -51,9 +51,9 @@ _A complete list of pages is in the [WAI site map](https://www.w3.org/WAI/sitema
 
 {% include_cached excol.html type="middle" %}
 
-- **[What We're Working On - Accessibility Activities and Publications](https://www.w3.org/WAI/update/)** updated monthly
-- [WAI News](/news/)
-- [Get resources for…](https://www.w3.org/WAI/roles/)
+- **[[What We're Working On - Accessibility Activities and Publications]](/update/)** updated monthly
+- [[WAI News]](/news/)
+- [[Get resources for…]](/roles/)
    - [Content Writers](/roles/writers/)
    - [Designers](/roles/designers/)
    - [Developers](/roles/developers/)
@@ -62,7 +62,7 @@ _A complete list of pages is in the [WAI site map](https://www.w3.org/WAI/sitema
    - [Policy Makers](/roles/policy-makers/)
    - [Trainers, Educators](/roles/trainers/)
    - [Web Users, People with Disabilities, Advocates](/roles/users/)
-- [All Translations](https://www.w3.org/WAI/translations)
+- [All Translations](/translations)
 
 {% include_cached excol.html type="end" %}
 
@@ -76,11 +76,11 @@ The following resources provide information for **getting started with accessibi
 
 [[Introduction to Web Accessibility]](/fundamentals/accessibility-intro/)
 :   Introduces web accessibility and links to additional resources. Includes accessibility in context; why accessibility is important for individuals, businesses, society; making digital technology accessible; evaluating accessibility; and basic examples.
-    -   [Video Introduction to Web Accessibility and W3C Standards](/videos/standards-and-benefits/) 4-minutes {% include image.html src="video.svg" alt="" class="icon" %}
+    -   [[Video Introduction to Web Accessibility and W3C Standards]](/videos/standards-and-benefits/) 4-minutes {% include image.html src="video.svg" alt="" class="icon" %}
     
 [[Accessibility: It's About People]](/people/)
 :   Explains the people aspect of accessibility and the role of accessibility in diversity, equality, and inclusion (DEI). Links to:
-    -   [Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone](/perspective-videos/) - videos that demonstrate that web accessibility is essential for people with disabilities and useful for all. Ten 1-minute videos, and a 7-minute compliation {% include image.html src="video.svg" alt="" class="icon" %}
+    -   [[Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone]](/perspective-videos/) - videos that demonstrate that web accessibility is essential for people with disabilities and useful for all. Ten 1-minute videos, and a 7-minute compliation {% include image.html src="video.svg" alt="" class="icon" %}
     -   [[How People with Disabilities Use the Web]](/people-use-web/)<!-- , [Videos of How People with Disabilities Use the Web](/people-use-web/) Eighteen 2+minute videos, and 3 compliations {% include image.html src="video.svg" alt="" class="icon" %} -->
     -   [Older Users and Web Accessibility](/older-users/) resources
     -   [[Accessibility, Usability, and Inclusion]](/fundamentals/accessibility-usability-inclusion/)
@@ -93,7 +93,7 @@ The following resources provide information for **getting started with accessibi
 
 Digital Accessibility Courses:
 :   -   [[Digital Accessibility Foundations &mdash; Free Online Course]](/fundamentals/foundations-course/) - Introduces a self-paced course from W3C WAI for developers, designers, ux, writers, managers, advocates. **Designed for technical and non-technical learners**, including students, instructors, professionals, and people with disabilities. Course is free with optional certificate.
-    -   [[Course List of Digital Accessibility Education, Training, and Certification]](/courses/list/) - Lists courses from different providers.    
+    -   [[Course List - Digital Accessibility Education, Training, and Certification]](/courses/list/) - Lists courses from different providers.    
 
 {% include_cached excol.html type="end" %}
 
@@ -143,19 +143,19 @@ The resources below help you find existing laws and policies, and develop a poli
 
 These tips introduce some basic considerations for making your website more accessible to people with disabilities. They provide links to additional guidance.
 
-[Writing for Web Accessibility](/tips/writing/) 
+[[Writing for Web Accessibility]](/tips/writing/) 
 : Tips for writing and presenting content.
 
-[Designing for Web Accessibility](/tips/designing/) 
+[[Designing for Web Accessibility]](/tips/designing/) 
 : Tips for user interface and visual design.
 
-[Developing for Web Accessibility](/tips/developing/) 
+[[Developing for Web Accessibility]](/tips/developing/) 
 : Tips for markup and coding.
 {:.paragraph-like}
 
 ### Media Resource for Audio and Video
 
-[Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/)
+[[Making Audio and Video Media Accessible]](/media/av/)
 : Helps you understand and create captions/subtitles, audio description of visual information, descriptive transcripts, and sign language for media. Includes guidance for creating new videos, and on media player accessibility. Introduces user experiences and benefits to organizations.
 {:.paragraph-like}
 
@@ -163,16 +163,16 @@ These tips introduce some basic considerations for making your website more acce
 
 The tutorials provide guidance on how to create components that meet Web Content Accessibility Guidelines (WCAG), that are more accessible to people with disabilities, and that provide a better user experience for everyone.
 
-* **[Page Structure Tutorial](https://www.w3.org/WAI/tutorials/page-structure/)**
-* **[Menus Tutorial](https://www.w3.org/WAI/tutorials/menus/)**
-* **[Images Tutorial](https://www.w3.org/WAI/tutorials/images/)**
-* **[Tables Tutorial](https://www.w3.org/WAI/tutorials/tables/)**
-* **[Forms Tutorial](https://www.w3.org/WAI/tutorials/forms/)**
-* **[Carousels Tutorial](https://www.w3.org/WAI/tutorials/carousels/)**
+* **[[Page Structure Tutorial]](/tutorials/page-structure/)**
+* **[[Menus Tutorial]](/tutorials/menus/)**
+* **[[Images Tutorial]](/tutorials/images/)**
+* **[[Tables Tutorial]](/tutorials/tables/)**
+* **[[Forms Tutorial]](/tutorials/forms/)**
+* **[[Carousels Tutorial]](/tutorials/carousels/)**
 
 ### Other Design and Development Resources
 
-[How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
+[How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/)
 : A customizable reference to Web Content Accessibility Guidelines (WCAG) requirements ("success criteria") and techniques.
 
 [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/)
@@ -181,7 +181,7 @@ The tutorials provide guidance on how to create components that meet Web Content
 [Cognitive Accessibility Guidance](/WCAG2/supplemental/#cognitiveaccessibilityguidance)
 : Provides objectives and design patterns to improve accessibility for people with cognitive and learning disabilities. Introduced in [About Supplemental Guidance](/WCAG2/supplemental/about/).
 
-[Developing Websites for Older People: How WCAG Applies](https://www.w3.org/WAI/older-users/developing/)
+[Developing Websites for Older People: How WCAG 2 Applies](/older-users/developing/)
 : Lists specific WCAG success criteria and techniques that particularly improve accessibility and usability for older people.
 {:.paragraph-like}
 
@@ -212,10 +212,11 @@ There are evaluation tools that help with evaluation. However, no tool alone can
 
 Even if you don’t know anything about accessibility and you don’t have a robust accessibility tool, you can check some aspects of accessibility.
 
-[Easy Checks — A First Review of Web Accessibility](/test-evaluate/preliminary/)
+[[Easy Checks — A First Review of Web Accessibility]](/test-evaluate/preliminary/)
 :   Provides step-by-step guidance and brief explanations for checking some aspects of accessibility.
 
 ### Tools
+{:style="clear:both"}
 
 {% include video-card.html
     video-url="//media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4"
@@ -227,13 +228,14 @@ Even if you don’t know anything about accessibility and you don’t have a rob
 
 Web accessibility evaluation tools are software programs or online services that help determine if web content meets accessibility standards.
 
-[Web Accessibility Evaluation Tools List](/test-evaluate/tools/list/)
+[[Web Accessibility Evaluation Tools List]](/test-evaluate/tools/list/)
 :   Includes information on evaluation tools. You can use the filters to narrow down the list to the types of tools you are interested in.
 
 [[Selecting Web Accessibility Evaluation Tools]](/test-evaluate/tools/selecting/)
 :   Provides guidance on choosing tools. It describes the features and functionality of different types of evaluation tools, and discusses things to consider for your situation.
 
 ### Conformance Evaluation and Reports {#conformance}
+{:style="clear:both"}
 
 {% include video-card.html
     video-url="//media.w3.org/wai/evaluation-intros/conformance-evaluation.mp4"
@@ -260,11 +262,12 @@ Conformance evaluation determines how well web pages or applications meet access
 Communicate the results of evaluation clearly, including the scope of the evaluation.
 
 ### For Developers of Test Tools and Methodologies
+{:style="clear:both"}
 
 [WCAG 2 Test Rules](/standards-guidelines/act/rules/about/)
 :   Describe how to test conformance to Web Content Accessibility Guidelines (WCAG) success criteria. They are primarily for developers of test tools and methodologies.
 
-Specifications for expressing test results (EARL) and for writing accessibility test rules (Accessibility Conformance Testing (ACT) Rules Format) are introduced in [Evaluation Standards Overview](/standards-guidelines/evaluation/).
+Specifications for expressing test results (EARL) and for writing accessibility test rules (Accessibility Conformance Testing (ACT) Rules Format) are introduced in [[Evaluation Standards Overview – ACT & EARL]](/standards-guidelines/evaluation/).
 
 ### People
 
@@ -278,7 +281,7 @@ Specifications for expressing test results (EARL) and for writing accessibility 
 
 Getting the right people and skills involved makes your accessibility evaluations more effective.
 
-[Using Combined Expertise to Evaluate Web Accessibility](/test-evaluate/combined-expertise/)
+[[Using Combined Expertise to Evaluate Web Accessibility]](/test-evaluate/combined-expertise/)
 :   Discusses skill sets and considerations for collaborative review.
 
 [[Involving Users in Evaluating Web Accessibility]](/test-evaluate/involving-users/)
@@ -344,11 +347,12 @@ Web "content" generally refers to the information in a web page or web applicati
 WCAG 2 applies to dynamic content, multimedia, "mobile", etc. WCAG can also be applied to non-web information and communications technologies (ICT), as described in [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
 
 WCAG 2 info:
-- [WCAG Overview](/standards-guidelines/wcag/)
-- [[WCAG 2.1 at a Glance]](/standards-guidelines/wcag/glance/)
-- [How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
-- [WCAG 2.0 Standard](https://www.w3.org/TR/WCAG20/)
+- [[WCAG 2 Overview]](/standards-guidelines/wcag/)
+- [[WCAG 2 at a Glance]](/standards-guidelines/wcag/glance/)
+- [How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/)
+- [WCAG 2.2 Standard](https://www.w3.org/TR/WCAG22/)
 - [WCAG 2.1 Standard](https://www.w3.org/TR/WCAG21/)
+- [WCAG 2.0 Standard](https://www.w3.org/TR/WCAG20/)
 
 #### W3C Accessibility Guidelines (WCAG) 3 Working Draft {#wcag3}
 
@@ -374,7 +378,7 @@ ATAG info:
 User agents include browsers, browser extensions, media players, readers, and other applications that render web content.
 
 UAAG info:
-- [UAAG Overview](/standards-guidelines/uaag/)
+- [[UAAG Overview]](/standards-guidelines/uaag/)
 - [UAAG 2.0 Note](https://www.w3.org/TR/UAAG20/)
 
 ### Technical Specifications
@@ -386,9 +390,9 @@ ARIA provides semantics so authors can convey user interface behaviors and struc
 The ARIA suite includes <abbr title="application programming interface">API</abbr> mapping specifications that provide user agent implementation guidance. It also include modules for Graphics and Digital Publishing.
 
 ARIA info:
-- [WAI-ARIA Overview](/standards-guidelines/aria/) – includes a [list and description of modules and API mappings](/standards-guidelines/aria/#versions)
+- [[WAI-ARIA Overview]](/standards-guidelines/aria/) – includes a [list and description of modules and API mappings](/standards-guidelines/aria/#versions)
 - [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/)
-- [WAI-ARIA 1.1 Standard](https://www.w3.org/TR/wai-aria-1.1/)
+- [WAI-ARIA 1.2 Standard](https://www.w3.org/TR/wai-aria-1.2/)
 
 #### Audio and Video {#multimedia}
 
@@ -408,9 +412,9 @@ Additional resources related to evaluation are listed in the [[Evaluating Web Ac
 
 - [[WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM is an approach for determining how well a website conforms to Web Content Accessibility Guidelines (WCAG).
 
-#### Personalization
+#### WAI-Adapt
 
-[[Personalization Overview]](/personalization/) &mdash; Personalization involves tailoring the user experience to meet the needs and preferences of the individual user. Content authors can use personalization standards to provide a default design and enable user personalization with minimal work.
+[[WAI-Adapt Overview]](/adapt/) &mdash; WAI-Adapt enables users to adapt (or ‘personalize’) how content is presented to meet their needs and preferences. Content authors can use WAI-Adapt standards to provide a default design and enable user adaptation with minimal work.
 
 #### Pronunciation
 
@@ -435,7 +439,8 @@ Additional resources related to evaluation are listed in the [[Evaluating Web Ac
 
 - [How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and **Opportunities to Contribute**](/standards-guidelines/w3c-process/)
 
-![illustration showing the guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide](https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png)
+{% assign longdesc_url = "/fundamentals/components/examples/#guide" | relative_url %}
+{% include image.html src="specs.png" alt="Illustration showing the guidelines for the different components" longdesc=longdesc_url %}
 
 {% include_cached excol.html type="end" %}
 
