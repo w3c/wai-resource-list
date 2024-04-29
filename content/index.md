@@ -193,7 +193,7 @@ The tutorials provide guidance on how to create components that meet Web Content
 
 {% include_cached excol.html type="middle" %}
 
-_For videos introducing the evalution resources below, go to [[Evaluating Web Accessibility Overview]](/test-evaluate/)._
+_For videos introducing the evaluation resources below, go to [[Evaluating Web Accessibility Overview]](/test-evaluate/)._
 
 When developing or redesigning a website or web application, evaluate accessibility early and throughout the development process to identify accessibility problems early, when it is easier to address them.
 
