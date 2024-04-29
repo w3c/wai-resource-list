@@ -6,6 +6,7 @@ last_updated: 2024-04-29
 github:
   repository: w3c/wai-website
   path: pages/wai-resources.md
+  label: wai-resource-list
 
 permalink: /resources/
 ref: /resources/
@@ -15,7 +16,7 @@ image: /content-images/wai-resource-list/resources-social.png
 feedbackmail: wai@w3.org
 
 footer: >
-  <p><strong>Date:</strong> Updated 29 April 2024.</p>
+  <p><strong>Date:</strong> Updated 30 April 2024.</p>
 ---
 
 {::nomarkdown}
@@ -178,7 +179,7 @@ The tutorials provide guidance on how to create components that meet Web Content
 [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/)
 : Provides approaches, advice, and examples to help web application developers make widgets, navigation, and behaviors accessible using WAI-ARIA (Accessible Rich Internet Applications) roles, states, and properties.
 
-[Cognitive Accessibility Guidance](/WCAG2/supplemental/#cognitiveaccessibilityguidance)
+[Cognitive Accessibility Guidance](/WCAG2/supplemental/#cognitive-accessibility-guidance)
 : Provides objectives and design patterns to improve accessibility for people with cognitive and learning disabilities. Introduced in [About Supplemental Guidance](/WCAG2/supplemental/about/).
 
 [Developing Websites for Older People: How WCAG 2 Applies](/older-users/developing/)
@@ -203,7 +204,7 @@ There are evaluation tools that help with evaluation. However, no tool alone can
 
 {% include video-card.html
     video-url="//media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4"
-    captions="/content-images/wai-eval-overview/easy-checks-accessibility-cc.vtt|en|default"
+    captions="/content-images/wai-eval-overview/easy-checks-accessibility.en.vtt|en|default"
     poster="video-thumb-easy-checks.png"
     accessible-version="https://www.w3.org/WAI/test-evaluate/preliminary/#video-intro"
     accessible-version-label="Video: Easy Checks Overview"
@@ -220,7 +221,7 @@ Even if you don’t know anything about accessibility and you don’t have a rob
 
 {% include video-card.html
     video-url="//media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4"
-    captions="/content-images/wai-eval-overview/tools-for-evaluating-cc.vtt|en|default"
+    captions="/content-images/wai-eval-overview/tools-for-evaluating.en.vtt|en|default"
     accessible-version="https://www.w3.org/WAI/test-evaluate/tools/#video-intro"
     accessible-version-label="Video: Evaluation Tools Overview"
     poster="/content-images/wai-eval-overview/video-thumb-tools.png"
@@ -239,7 +240,7 @@ Web accessibility evaluation tools are software programs or online services that
 
 {% include video-card.html
     video-url="//media.w3.org/wai/evaluation-intros/conformance-evaluation.mp4"
-    captions="/content-images/wai-eval-overview/conformance-evaluation-cc.vtt|en|default"
+    captions="/content-images/wai-eval-overview/conformance-evaluation.en.vtt|en|default"
     accessible-version="https://www.w3.org/WAI/test-evaluate/conformance/#video-intro"
     accessible-version-label="Video: Conformance Evaluation Overview"
     poster="/content-images/wai-eval-overview/video-thumb-conformance.png"
@@ -259,13 +260,8 @@ Conformance evaluation determines how well web pages or applications meet access
 [ATAG Report Tool](https://www.w3.org/WAI/atag/report-tool/)
 :   Helps you generate a report on how a tool meets Authoring Tool Accessibility Guidelines ([ATAG](https://www.w3.org/WAI/standards-guidelines/atag/)). Authoring tools are software and services used to create web content – such as content management systems (CMS) and what-you-see-is-what-you-get (WYSIWYG) HTML editors.
 
-Communicate the results of evaluation clearly, including the scope of the evaluation.
-
-### For Developers of Test Tools and Methodologies
-{:style="clear:both"}
-
-[WCAG 2 Test Rules](/standards-guidelines/act/rules/about/)
-:   Describe how to test conformance to Web Content Accessibility Guidelines (WCAG) success criteria. They are primarily for developers of test tools and methodologies.
+[Accessibility Conformance Testing (ACT) Rules](/standards-guidelines/act/rules/about/)
+:  Describe how to test conformance of accessibility standards such as WCAG and WAI-ARIA. ACT Rules are primarily used by developers of test tools and methodologies. Accessibility testers may find some rules helpful for evaluating edge cases consistently.
 
 Specifications for expressing test results (EARL) and for writing accessibility test rules (Accessibility Conformance Testing (ACT) Rules Format) are introduced in [[Evaluation Standards Overview – ACT & EARL]](/standards-guidelines/evaluation/).
 
@@ -273,7 +269,7 @@ Specifications for expressing test results (EARL) and for writing accessibility 
 
 {% include video-card.html
     video-url="//media.w3.org/wai/evaluation-intros/involving-users.mp4"
-    captions="/content-images/wai-eval-overview/involving-users-cc.vtt|en|default"
+    captions="/content-images/wai-eval-overview/involving-users.en.vtt|en|default"
     accessible-version="https://www.w3.org/WAI/test-evaluate/involving-users/#video-intro"
     accessible-version-label="Video: Involving Users in Web Accessibility Overview"
     poster="/content-images/wai-eval-overview/video-thumb-involving-users.png"
@@ -297,11 +293,11 @@ Getting the right people and skills involved makes your accessibility evaluation
 
 ### Training Resources {#train}
 
-[[How to Make Your Presentations Accessible to All]](/teach-advocate/accessible-presentations/)
-: Helps you make presentations, talks, meetings, and training accessible to all of your potential audience, including people with disabilities and others.
+[[Making Events Accessible: Checklist for meetings, conferences, training, and presentations that are remote/virtual, in-person, or hybrid]](/teach-advocate/accessible-presentations/)
+: Guides presenters, organizers, and participants in making events inclusive, particularly to people with disabilities. This benefits everyone, particularly international participants.
 
 [[Curricula on Web Accessibility: A Framework to Build Your Own Courses]](/curricula/)
-: Provides curricula to help you create courses on web accessibility for different roles. It defines learning outcomes, and provides ideas to teach and assess knowledge. The curriculum "Introduction to Web Accessibility" is currently available. Additional curriculum will be available in 2020 and 2021.
+: Provides curricula to help you create courses on web accessibility for different roles. It defines learning outcomes, and provides ideas to teach and assess knowledge.
 
 [[Developing Web Accessibility Presentations and Training]](/teach-advocate/accessibility-training/)
 : Provides materials for speakers, lecturers, educators and other presenters to help their participants understand more about web accessibility. The materials provide a range of information from introductory slides for those new to accessibility, to statistics and demos for experienced trainers. (Note: This content is mostly from 2013. The [Curricula](/curricula/) links to more recent resources.]
@@ -347,16 +343,17 @@ Web "content" generally refers to the information in a web page or web applicati
 WCAG 2 applies to dynamic content, multimedia, "mobile", etc. WCAG can also be applied to non-web information and communications technologies (ICT), as described in [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
 
 WCAG 2 info:
-- [[WCAG 2 Overview]](/standards-guidelines/wcag/)
+- [WCAG Overview](/standards-guidelines/wcag/)
 - [[WCAG 2 at a Glance]](/standards-guidelines/wcag/glance/)
 - [How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/)
-- [WCAG 2.2 Standard](https://www.w3.org/TR/WCAG22/)
-- [WCAG 2.1 Standard](https://www.w3.org/TR/WCAG21/)
+- [[WCAG 2 Translations]](/standards-guidelines/wcag/translations/)
+- [WCAG 2.2 Standard](https://www.w3.org/TR/WCAG22/), [[What's New in WCAG 2.2]](/standards-guidelines/wcag/new-in-22/)
+- [WCAG 2.1 Standard](https://www.w3.org/TR/WCAG21/), [[What’s New in WCAG 2.1]](/standards-guidelines/wcag/new-in-21/)
 - [WCAG 2.0 Standard](https://www.w3.org/TR/WCAG20/)
 
 #### W3C Accessibility Guidelines (WCAG) 3 Working Draft {#wcag3}
 
-WCAG 3 is an incomplete, early draft that is intended to become a W3C Standard. WCAG 3 applies to web content, apps, tools, publishing, and emerging technologies on the web.
+WCAG 3 is an early draft that is intended to become a W3C Standard. WCAG 3 applies to web content, apps, tools, publishing, and emerging technologies on the web.
 
 WCAG 3 info:
 - [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/)
@@ -404,7 +401,7 @@ ARIA info:
 
 The following resources support development of accessibility evaluation methods and tools:
 
-- [[Accessibility Conformance Testing (ACT) Overview]](/standards-guidelines/act/) &mdash; ACT establishes and documents rules for testing the conformance of web content to accessibility standards.
+- [[Accessibility Conformance Testing (ACT) Overview]](/standards-guidelines/act/) &mdash; ACT establishes and documents rules for testing the conformance of web content to accessibility standards. The [WCAG 2 Test Rules](/standards-guidelines/act/rules/about/) use the ACT rules format.
 
 - [[Evaluation and Report Language (EARL) Overview]](/standards-guidelines/earl/) &mdash; EARL is a machine-readable format for expressing test results.
 
@@ -439,8 +436,7 @@ Additional resources related to evaluation are listed in the [[Evaluating Web Ac
 
 - [How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and **Opportunities to Contribute**](/standards-guidelines/w3c-process/)
 
-{% assign longdesc_url = "/fundamentals/components/examples/#guide" | relative_url %}
-{% include image.html src="specs.png" alt="Illustration showing the guidelines for the different components" longdesc=longdesc_url %}
+![Illustration showing the guidelines for the different components, detailed description at https://www.w3.org/WAI/fundamentals/components/examples/#guide](https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png)
 
 {% include_cached excol.html type="end" %}
 
