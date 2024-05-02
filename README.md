@@ -1,1 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6198637f-a2d1-4a51-b96f-621800f21bb7/deploy-status)](https://app.netlify.com/sites/wai-resource-list/deploys)
+> [!IMPORTANT]
+> This repository has been archived 2 May 2024.
+>
+> [WAI Resources](https://www.w3.org/WAI/resources/) is now edited in the [wai-website](https://github.com/w3c/wai-website) repository.
